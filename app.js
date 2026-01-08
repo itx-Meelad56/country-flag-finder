@@ -8,6 +8,7 @@ let btn = document.getElementById('btn')
 btn.addEventListener('click', () => {
     if (!input.value) {
         alertPara.style.display = 'inline-block'
+        flagImg.src = ''
         alertPara.textContent = 'Enter country name (e.g. Pakistan)'
         return;
     };
