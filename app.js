@@ -20,7 +20,7 @@ btn.addEventListener('click', () => {
             flagImg.src = png
         }).catch(() => {
             alertPara.style.display = 'inline-block'
-            alertPara.textContent = 'You Enter Invalid Country'
+            alertPara.textContent = 'You entered an invalid country name.'
             flagImg.src = ''
         })
 })
